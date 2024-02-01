@@ -45,10 +45,10 @@ Halaman Setting Aplikasi Antrian untuk memudahkan dalam configurasi aplikasi sep
 ## Configurasi
 - Buat database dan import database yang ada di directory database/aplikasi_antrian_v2.sql
 - Jalankan **composer install**
-- Copy dan Paste file env.copy.php 
-- Ubah konfigurasi sesuai dengan konfigurasi server 
+- Copy dan Paste file env.copy.php kemudian rename menjadi env.php dan ubah konfigurasi sesuai dengan konfigurasi server pada file
 - Jalankan Server WebSocket pada root project dengan perintah **php server.php** (Command ini jangan di close)
 - Akses aplikasi antrian
+- Sesuaikan konfigurasi pada menu setting antrian
 - Login default static Setting Aplikasi Antrian
     Username : superadmin
     Password : superadmin@123
