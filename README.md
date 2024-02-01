@@ -43,8 +43,10 @@ Halaman Setting Aplikasi Antrian untuk memudahkan dalam configurasi aplikasi sep
 - Composer
 
 ## Configurasi
+- Buat database dan import database yang ada di directory database/aplikasi_antrian_v2.sql
 - Jalankan **composer install**
-- Ubah alamat WebSocket sesuai dengan alamat ip komputer server pada **pages/monitor/index.php Line 220**, **pages/panggilan/index.php Line 165**
+- Copy dan Paste file env.copy.php 
+- Ubah konfigurasi sesuai dengan konfigurasi server 
 - Jalankan Server WebSocket pada root project dengan perintah **php server.php** (Command ini jangan di close)
 - Akses aplikasi antrian
 - Login default static Setting Aplikasi Antrian
