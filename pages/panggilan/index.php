@@ -2,7 +2,7 @@
 <main class="flex-shrink-0">
     <div id="triggerClickTable"></div>
     <div class="container pt-4">
-        <div class="d-flex flex-column flex-md-row px-4 py-3 mb-4 bg-white rounded-2 shadow-sm">
+        <div class="d-flex flex-column flex-md-row px-4 py-1 mb-4 bg-white rounded-2 shadow-sm">
             <!-- judul halaman -->
             <div class="d-flex align-items-center me-md-auto">
                 <i class="bi-mic-fill text-success me-3 fs-3"></i>

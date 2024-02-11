@@ -4,6 +4,22 @@
 // error_reporting(E_ALL);
 require_once "config/query.php";
 session_start();
+$action = new config\query;
+$query = $action->getSetting();
+// ambil jumlah baris data hasil query
+$rows = mysqli_num_rows($query);
+
+if ($rows <> 0) {
+    $data = mysqli_fetch_assoc($query);
+} else {
+    $data = [];
+}
+
+if (isset($_GET['pages'])) {
+    $url = $_GET['pages'];
+} else {
+    $url = '';
+}
 ?>
 <!doctype html>
 <html lang="en" class="h-100">
@@ -44,46 +60,30 @@ session_start();
     ?>
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100" <?= (($url == 'monitor') ? 'style="background-color:' . ($data["warna_background"] ? $data["warna_background"] : "#fffff") : '') . '"' ?>>
     <?php
-    $action = new config\query;
-    $query = $action->getSetting();
-    // ambil jumlah baris data hasil query
-    $rows = mysqli_num_rows($query);
-
-    if ($rows <> 0) {
-        $data = mysqli_fetch_assoc($query);
-    } else {
-        $data = [];
-    }
-    if (isset($_GET['pages'])) {
-        $url = $_GET['pages'];
-
-        switch ($url) {
-            case "setting":
-                include 'pages/setting/index.php';
-                break;
-            case "nomor":
-                include 'pages/nomor/index.php';
-                break;
-            case "panggilan":
-                include 'pages/panggilan/index.php';
-                break;
-            case "monitor":
-                header('Location: pages/monitor/index.php');
-                break;
-            default:
-                include 'main.php';
-                break;
-        }
-    } else {
-        include 'main.php';
+    switch ($url) {
+        case "setting":
+            include 'pages/setting/index.php';
+            break;
+        case "nomor":
+            include 'pages/nomor/index.php';
+            break;
+        case "panggilan":
+            include 'pages/panggilan/index.php';
+            break;
+        case "monitor":
+            include 'pages/monitor/index.php';
+            break;
+        default:
+            include 'main.php';
+            break;
     }
     ?>
 
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-4">
+    <footer class="footer mt-auto py-4" <?= ($url == 'monitor') ? 'style="' . 'background-color:' . ($data['warna_accent'] ? $data['warna_accent'] : '#fff') . ';color:' . ($data['warna_text'] ? $data['warna_text'] : '#fff')  . '"' : ''; ?>>
         <div class="container">
             <!-- copyright -->
             <div class="copyright text-center mb-2 mb-md-0">&copy; <?= date('Y') ?> - <a href="https://paperlesshospital.id" target="_blank" class="text-brand text-decoration-none">paperlesshospital.id</a>. All rights reserved.

@@ -29,27 +29,27 @@
             <div class="col-sm-6 mb-3">
                 <div class="card border-0 shadow-sm">
                     <div class="card-body p-3">
-                        <div class="feature-icon-1 bg-success bg-gradient mb-4">
+                        <div class="feature-icon-3 bg-success bg-gradient mb-3">
                             <i class="bi-people"></i>
                         </div>
-                        <h3>Nomor Antrian</h3>
-                        <p class="mb-5">Halaman Nomor Antrian digunakan pengunjung untuk mengambil nomor antrian.</p>
-                        <a href="index.php?pages=nomor" class="btn btn-success rounded-pill px-4 py-2">
+                        <h4>Nomor Antrian</h4>
+                        <p class="mb-3">Halaman Nomor Antrian digunakan pengunjung untuk mengambil nomor antrian.</p>
+                        <a href="index.php?pages=nomor" class="btn btn-success px-4 py-2">
                             Tampilkan <i class="bi-arrow-right ms-2"></i>
                         </a>
                     </div>
                 </div>
             </div>
             <!-- link halaman panggilan antrian -->
-            <div class="col-sm-6 mb-4">
+            <div class="col-sm-6 mb-3">
                 <div class="card border-0 shadow-sm">
                     <div class="card-body p-3">
-                        <div class="feature-icon-1 bg-success bg-gradient mb-4">
+                        <div class="feature-icon-3 bg-success bg-gradient mb-3">
                             <i class="bi-mic"></i>
                         </div>
-                        <h3>Panggilan Antrian</h3>
-                        <p class="mb-5">Halaman Panggilan Antrian digunakan petugas loket untuk memanggil antrian.</p>
-                        <a href="javascript:;" class="btn btn-success rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#panggilAntrian">
+                        <h4>Panggilan Antrian</h4>
+                        <p class="mb-3">Halaman Panggilan Antrian digunakan petugas loket untuk memanggil antrian.</p>
+                        <a href="javascript:;" class="btn btn-success px-4 py-2" data-bs-toggle="modal" data-bs-target="#panggilAntrian">
                             Tampilkan <i class="bi-arrow-right ms-2"></i>
                         </a>
                     </div>
@@ -59,30 +59,30 @@
 
         <div class="row gx-3">
             <!-- link halaman monitor antrian -->
-            <div class="col-sm-6 mb-4">
+            <div class="col-sm-6 mb-3">
                 <div class="card border-0 shadow-sm">
                     <div class="card-body p-3">
-                        <div class="feature-icon-1 bg-success bg-gradient mb-4">
+                        <div class="feature-icon-3 bg-success bg-gradient mb-3">
                             <i class="bi-display"></i>
                         </div>
-                        <h3>Monitor Antrian</h3>
-                        <p class="mb-5">Halaman Monitor Antrian digunakan menampilkan antrian pada monitor.</p>
-                        <a href="index.php?pages=monitor" class="btn btn-success rounded-pill px-4 py-2">
+                        <h4>Monitor Antrian</h4>
+                        <p class="mb-3">Halaman Monitor Antrian digunakan menampilkan antrian pada monitor.</p>
+                        <a href="index.php?pages=monitor" class="btn btn-success px-4 py-2">
                             Tampilkan <i class="bi-arrow-right ms-2"></i>
                         </a>
                     </div>
                 </div>
             </div>
             <!-- link halaman setting antrian -->
-            <div class="col-sm-6 mb-4">
+            <div class="col-sm-6 mb-3">
                 <div class="card border-0 shadow-sm">
                     <div class="card-body p-3">
-                        <div class="feature-icon-1 bg-success bg-gradient mb-4">
+                        <div class="feature-icon-3 bg-success bg-gradient mb-3">
                             <i class="bi-gear"></i>
                         </div>
-                        <h3>Setting Antrian</h3>
-                        <p class="mb-5">Halaman Setting Antrian digunakan untuk setting antrian.</p>
-                        <a href="index.php?pages=setting" class="btn btn-success rounded-pill px-4 py-2">
+                        <h4>Setting Antrian</h4>
+                        <p class="mb-3">Halaman Setting Antrian digunakan untuk setting antrian.</p>
+                        <a href="index.php?pages=setting" class="btn btn-success px-4 py-2">
                             Tampilkan <i class="bi-arrow-right ms-2"></i>
                         </a>
                     </div>
