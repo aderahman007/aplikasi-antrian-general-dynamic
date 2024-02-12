@@ -101,21 +101,4 @@ BEGIN;
 INSERT INTO `queue_setting` (`id`, `nama_instansi`, `logo`, `alamat`, `telpon`, `email`, `running_text`, `youtube_id`, `list_loket`, `list_type_antrian`, `warna_primary`, `warna_secondary`, `warna_accent`, `warna_background`, `warna_text`, `printer`) VALUES (1, 'RSUD BATIN MANGUNANG', 'Lambang_Kabupaten_Tanggamus.png', 'Jl. Soekarno Hatta, Komplek Islamic Centre', '558450845', 'ade2mail.com', 'SELAMAT DATANG DI RSUD BATIN MANGUNANG, KOTA AGUNG KAB. TANGGAMUS', 'xVswuC8GKg4', '[{\"no_loket\":\"1\",\"nama_loket\":\"Loket 1\",\"handle_type_antrian\":\"[\\\"A\\\",\\\"B\\\"]\"},{\"no_loket\":\"2\",\"nama_loket\":\"Loket 2\",\"handle_type_antrian\":\"[\\\"B\\\"]\"},{\"no_loket\":\"3\",\"nama_loket\":\"Loket 3\",\"handle_type_antrian\":\"[\\\"A\\\",\\\"B\\\"]\"}]', '[{\"type_antrian\":\"UMUM\",\"code_antrian\":\"A\"},{\"type_antrian\":\"BPJS\",\"code_antrian\":\"B\"},{\"type_antrian\":\"PRIORITAS\",\"code_antrian\":\"C\"}]', '#00923f', '#c39292', '#6083a9', '#3a9862', '#ffffff', '{\"ip_komputer_printer\":\"127.0.0.1\",\"nama_sharing_printer\":\"pos-58\",\"tipe_font_no_antrian\":\"FONT_A\",\"lebar_font_no_antrian\":\"1\",\"tinggi_font_no_antrian\":\"1\",\"header_struk\":\"RSUD BATIN MANGUNANG newLine\",\"tipe_font_header\":\"FONT_A\",\"lebar_font_header\":\"1\",\"tinggi_font_header\":\"1\",\"alamat_struk\":\"Jl. Soekarno Hatta, Komplek Islamic Centre newLine Kota Agung, Tanggamus newLine\",\"tipe_font_alamat\":\"FONT_A\",\"lebar_font_alamat\":\"1\",\"tinggi_font_alamat\":\"1\",\"informasi_struk\":\"Silahkan menunggu nomor antrian dipanggil newLine Nomor ini hanya berlaku pada hari dicetak newLine\",\"tipe_font_informasi\":\"FONT_A\",\"lebar_font_informasi\":\"1\",\"tinggi_font_informasi\":\"1\",\"footer_struk\":\"TERIMA KASIH, ANDA TELAH TERTIB\",\"tipe_font_footer\":\"FONT_A\",\"lebar_font_footer\":\"1\",\"tinggi_font_footer\":\"1\"}');
 COMMIT;
 
--- ----------------------------
--- Table structure for queue_type
--- ----------------------------
-DROP TABLE IF EXISTS `queue_type`;
-CREATE TABLE `queue_type` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nama` varchar(255) DEFAULT NULL,
-  `code` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of queue_type
--- ----------------------------
-BEGIN;
-COMMIT;
-
 SET FOREIGN_KEY_CHECKS = 1;
