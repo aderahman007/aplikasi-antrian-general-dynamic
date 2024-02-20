@@ -53,4 +53,8 @@ Halaman Setting Aplikasi Antrian untuk memudahkan dalam configurasi aplikasi sep
     Username : superadmin
     Password : superadmin@123
 
-#### Script MIT Lisence 
+# Support me
+Donation to give me a Gift   
+Saweria : https://saweria.co/aderahman007
+
+#### Script MIT Lisence
