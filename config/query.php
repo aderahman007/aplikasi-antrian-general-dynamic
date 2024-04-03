@@ -47,7 +47,8 @@ class query extends database{
     }
 
     public function updateAntrian($id){
-        $query = mysqli_query($this->mysqli, "UPDATE queue_antrian_admisi SET status='1', updated_date='$this->tanggal' WHERE id='$id'") or die('Ada kesalahan pada query update : ' . mysqli_error($this->mysqli));
+        $updated_date = gmdate("Y-m-d H:i:s", time() + 60 * 60 * 7);
+        $query = mysqli_query($this->mysqli, "UPDATE queue_antrian_admisi SET status='1', updated_date='$updated_date' WHERE id='$id'") or die('Ada kesalahan pada query update : ' . mysqli_error($this->mysqli));
         return $query;
     }
 
