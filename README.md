@@ -1,4 +1,4 @@
-# Aplikasi Antrian General Static
+# Aplikasi Antrian General Dynamic
 
 Aplikasi Antrian merupakan sistem manajemen yang digunakan untuk mengelola antrian pengunjung pada suatu perusahaan atau instansi. Aplikasi antrian dapat digunakan sebagai sarana untuk mencapai kinerja efektif dan efisien bagi perusahaan atau instansi dalam melayani pengunjung.
 
@@ -55,6 +55,11 @@ Halaman Setting Aplikasi Antrian untuk memudahkan dalam configurasi aplikasi sep
 
 # Support me
 Donation to give me a Gift   
-Saweria : https://saweria.co/aderahman007
+Saweria : https://saweria.co/aderahman007  
+
+Follow me :  
+**Instagram** : [@aderahman_007](https://www.instagram.com/aderahman_007) || [@adeofficial007](https://www.instagram.com/adeofficial007)
 
 #### Script MIT Lisence
+Aplikasi ini bersifat **Open Source** siapa pun dapat menggunakan, mengembangkan dan berkontribusi.
+Dilarang keras untuk memperjual belikan/mengambil keuntungan dari aplikasi ini dalam bentuk apapun tanpa seizin Developper.
